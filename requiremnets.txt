@@ -1,0 +1,7 @@
+requests==2.24.0
+requests-toolbelt==0.9.1
+python-dotenv==0.20.0
+pandas
+openpyxl
+csv
+xlsxwriter

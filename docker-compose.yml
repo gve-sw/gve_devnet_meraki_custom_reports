@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  gve_devnet_meraki_custom_reports:
+    image: ghcr.io/gve-sw/gve_devnet_meraki_custom_reports:latest
+    container_name: gve_devnet_meraki_custom_reports
+    environment:
+      - API_KEY=${API_KEY}
+      - MERAKI_BASE_URL=${MERAKI_BASE_URL}
+    volumes:
+      - /app
+    restart: "always"
